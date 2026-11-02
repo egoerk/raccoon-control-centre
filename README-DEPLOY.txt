@@ -1,13 +1,9 @@
-RACCOON CONTROL CENTRE — iPHONE DEPLOYMENT
+RACCOON CONTROL CENTRE v0.7 MEMORY BANK
 
-1. On a computer, sign in to GitHub and create a PUBLIC repository called raccoon-control-centre.
-2. Upload ONLY these files to repository root: index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png. Do not upload the private archive JSON.
-3. In repository Settings > Pages, choose Deploy from a branch, main, /(root), Save.
-4. Wait for Pages to publish. Open the resulting https website in iPhone Safari.
-5. Safari Share > Add to Home Screen > Add. Open from the icon.
-6. In the app, choose Import archive JSON and select the PRIVATE founding-archive.json file from your phone.
-7. Export backups regularly. Data is stored locally in the browser and does NOT sync across devices.
+Upload these six files to the root of your existing public GitHub repository, replacing files of the same names. Do NOT upload the private archive JSON.
 
-PRIVACY: The published app source contains no personal project archive. The separately supplied founding-archive.json is PRIVATE; do not commit it to a public repository. The app itself is public.
+On iPhone open the Home Screen app after GitHub Pages deploys; if the old version is cached, open the Safari website and refresh, then reopen the Home Screen app.
 
-CAUTION: If you used a previous local HTML version, browser storage does not automatically migrate to the new website origin. Export from the old app if possible and import it on the new site.
+Import the private archive using Memory Bank > Import private archive. Your saved device records remain in local browser storage. Export a backup before updating or adding many photos.
+
+Privacy: GitHub Pages is public. The personal archive is deliberately excluded from this ZIP. The app does not sync between devices.
